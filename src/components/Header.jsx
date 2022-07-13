@@ -11,10 +11,32 @@ const Header = () => {
           <span style={{ fontWeight: "bold" }}>BS</span>
         </Link>
         <div>
-          <NavLink to="/donate" className={styles.links}>
+          <NavLink
+            to="/donate"
+            style={({ isActive }) =>
+              isActive
+                ? {
+                    color: "rgb(255, 105, 180)",
+                    fontWeight: "bold"
+                  }
+                : {}
+            }
+            className={styles.links}
+          >
             Donate
           </NavLink>
-          <NavLink to="/info" className={styles.links}>
+          <NavLink
+            to="/info"
+            style={({ isActive }) =>
+              isActive
+                ? {
+                    color: "rgb(255, 105, 180)",
+                    fontWeight: "bold"
+                  }
+                : {}
+            }
+            className={styles.links}
+          >
             Info
           </NavLink>
         </div>
