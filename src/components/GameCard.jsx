@@ -8,7 +8,7 @@ import { questions } from "../questions";
 const GameCard = () => {
   const [laws, setLaws] = useState(0);
   const [points, setPoints] = useState(0);
-  const [scoreCard, setScoreCard] = useState(true);
+  const [scoreCard, setScoreCard] = useState(false);
   const goToNextQuestion = (ans) => {
     if (ans === true) {
       setPoints(points + 1);
