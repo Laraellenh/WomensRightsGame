@@ -1,5 +1,5 @@
 import styles from "./ScoreCard.module.css";
-import angryImage from "../../public/images/angry.png";
+import angryImage from "../images/angry.png";
 
 const Scorecard = ({ points, questions }) => {
   return (
