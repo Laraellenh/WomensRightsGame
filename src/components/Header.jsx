@@ -8,7 +8,9 @@ const Header = () => {
       <nav>
         <Link to="/" className={styles.logo}>
           YC
-          <span style={{ fontWeight: "bold" }}>BS</span>
+          <span style={{ fontWeight: "bold", color: "rgb(255, 105, 180)" }}>
+            BS
+          </span>
         </Link>
         <div>
           <NavLink

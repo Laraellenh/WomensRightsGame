@@ -1,8 +1,22 @@
 .container {
-  margin: 5%;
-  font-size: 15px;
+  margin: 5% 5% 5% 5%;
 }
 
 .container section {
   margin-bottom: 1.5rem;
+}
+
+.links {
+  font-size: 4rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-top: 1.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .links {
+    font-size: 1.5rem;
+  }
 }

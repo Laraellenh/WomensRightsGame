@@ -1,10 +1,36 @@
-li {
-  margin-top: 2px;
-  font-size: 20px;
-  /* text-indent: 20px; */
+.container {
+  margin: 5%;
+  text-align: center;
 }
 
-.container {
-  font-size: 35px;
-  text-align: center;
+.container h2 {
+  margin-bottom: 3rem;
+  font-size: 4.5rem;
+}
+
+.container li {
+  margin-bottom: 4.5rem;
+  font-weight: 700;
+}
+
+.links {
+  font-size: 4rem;
+}
+.money {
+  color: rgb(1, 226, 1);
+}
+
+@media only screen and (max-width: 768px) {
+  .links {
+    font-size: 1.5rem;
+  }
+
+  .container h2 {
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+  }
+
+  .container li {
+    margin-bottom: 1.5rem;
+  }
 }

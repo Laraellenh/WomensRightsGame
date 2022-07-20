@@ -1,0 +1,6 @@
+.containter {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-size: 0.7rem;
+}

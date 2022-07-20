@@ -7,3 +7,4 @@ export { default as Info } from "./Info";
 export { default as Donate } from "./Donate";
 export { default as Layout } from "./Layout";
 export { default as Button } from "./Button";
+export { default as Footer } from "./Footer";
