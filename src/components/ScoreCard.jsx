@@ -9,7 +9,16 @@ const Scorecard = ({ points, questions }) => {
         <p className={styles.score}>
           Your Score is {points} points out of {questions.length}
         </p>
-        <p className={styles.message}>Can you believe it?</p>
+        <p className={styles.message}>
+          Thats right! All these ridiculous laws are true!!{" "}
+          <span
+            style={{ fontStyle: "normal" }}
+            role="img"
+            aria-label="horrified emoji"
+          >
+            😱
+          </span>
+        </p>
       </div>
     </div>
   );
